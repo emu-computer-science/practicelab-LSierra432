@@ -3,6 +3,7 @@
 CC = gcc
 CFLAGS = -Wall
 ObjFiles = driver.o file1.o file2.o
+#for windows, the Target needs to end in .exe or it will create just a file. ex: output.exe
 Target = makefileOutput
 
 all: $(Target)
