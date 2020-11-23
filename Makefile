@@ -3,7 +3,7 @@
 CC = gcc
 CFLAGS = -Wall
 ObjFiles = driver.o file1.o file2.o
-Target = stackFiles
+Target = makefileOutput
 
 all: $(Target)
 
